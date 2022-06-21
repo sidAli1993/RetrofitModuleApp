@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">157.245.45.184</domain>
+        <domain includeSubdomains="true">localhost:3000</domain>
+        <domain includeSubdomains="true">deazitech.com</domain>
+        <domain includeSubdomains="true">deazitech.com:445</domain>
+        <domain includeSubdomains="true">deazitech.com:446</domain>
+    </domain-config>
+</network-security-config>
